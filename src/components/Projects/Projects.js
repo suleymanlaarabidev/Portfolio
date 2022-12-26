@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+
 import SulyMusicplayer from "../../Assets/Suly-music-banniere.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import portfolio from "../../Assets/portfolio.png";
+
 
 function Projects() {
   return (
@@ -29,6 +27,16 @@ function Projects() {
               description="Material You Design music player for Android"
               ghLink="https://github.com/suleymanlaarabidev/Suly-Music"
               demoLink="https://t.me/SulyMusicPlayer"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Portfolio"
+              description="My self coded personal website build with React.js"
+              ghLink="https://github.com/suleymanlaarabidev/Portfolio"
+              demoLink="https://github.com/suleymanlaarabidev/Portfolio"
             />
           </Col>
 
