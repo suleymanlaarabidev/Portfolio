@@ -6,6 +6,8 @@ import Particle from "../Particle";
 import SulyMusicplayer from "../../Assets/Suly-music-banniere.png";
 import portfolio from "../../Assets/portfolio.png";
 
+import valorant from "../../Assets/Projects/valorantBanner.png";
+
 
 function Projects() {
   return (
@@ -36,7 +38,17 @@ function Projects() {
               title="Portfolio"
               description="My self coded personal website build with React.js"
               ghLink="https://github.com/suleymanlaarabidev/Portfolio"
-              demoLink="https://github.com/suleymanlaarabidev/Portfolio"
+              demoLink="https://suleymanportfolio.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={valorant}
+              isBlog={false}
+              title="Valorant Client"
+              description="a simple valorant client to know everything about the game"
+              ghLink="https://github.com/suleymanlaarabidev/valorant-client"
+              demoLink="https://valorant-client.web.app/"
             />
           </Col>
 
