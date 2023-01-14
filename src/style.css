@@ -455,6 +455,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  min-height: calc(100vh - 58.7px);
 }
 
 .project-card {
@@ -614,6 +615,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  min-height: calc(100vh - 58.7px);
 }
 
 .resume {
