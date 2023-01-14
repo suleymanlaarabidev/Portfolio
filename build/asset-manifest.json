@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.89209b7c.css",
-    "main.js": "/static/js/main.19dc6437.js",
+    "main.css": "/static/css/main.3536519c.css",
+    "main.js": "/static/js/main.aaf0a9fe.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/suleyman.pdf": "/static/media/suleyman.57a3fad0b2a5ccd0f8c4.pdf",
+    "static/media/valorantBanner.png": "/static/media/valorantBanner.b10c78f00bd5797167a4.png",
     "static/media/portfolio.png": "/static/media/portfolio.c0513b16b2e0cf730a83.png",
+    "static/media/profilePics.jpg": "/static/media/profilePics.3425b6232362ca7c77b1.jpg",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/logo.png": "/static/media/logo.71c653459a0b6d4b248d.png",
     "static/media/Suly-music-banniere.png": "/static/media/Suly-music-banniere.10746fa913d0d026d08b.png",
-    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.89209b7c.css.map": "/static/css/main.89209b7c.css.map",
-    "main.19dc6437.js.map": "/static/js/main.19dc6437.js.map",
+    "main.3536519c.css.map": "/static/css/main.3536519c.css.map",
+    "main.aaf0a9fe.js.map": "/static/js/main.aaf0a9fe.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89209b7c.css",
-    "static/js/main.19dc6437.js"
+    "static/css/main.3536519c.css",
+    "static/js/main.aaf0a9fe.js"
   ]
 }

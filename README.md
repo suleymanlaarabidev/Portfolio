@@ -34,11 +34,8 @@ My personal portfolio <a href="https://github.com/suleymanlaarabidev/Portfolio/"
 This project was built using these technologies.
 
 - React.js
-- Node.js
-- Express.js
 - CSS3
 - VsCode
-- Vercel
 
 ## Features
 
