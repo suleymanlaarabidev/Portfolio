@@ -805,7 +805,21 @@ transition: all 0.2s;
   background: rgba(255, 255, 255, 0.08);
   border: solid 3px #cb5cff;
 }
+.contact-section form button{
+  height: 45px;
+  width: 150px;
+  background: #8a49a8;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+ transition: all 0.3s;
 
+}
+.contact-section form button:hover{
+  cursor: pointer;
+  background: #b771d7;
+  transform: scale(1.1);
+}
 @media (max-width:520px) {
     .contact-section form .name-input input {
       width: 140px;
