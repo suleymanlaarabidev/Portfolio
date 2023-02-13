@@ -749,3 +749,73 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+/* Contact Section */
+
+.contact-section{
+  height: calc(100vh - 59px);
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.contact-section form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.contact-section form input{
+margin: 10px;
+height: 50px;
+width: 420px;
+outline: none;
+background: rgba(255, 255, 255, 0.02) ;
+border: solid 1px #8a49a8;
+border-radius: 5px;
+color: white;
+padding-left: 20px;
+transition: all 0.2s;
+}
+
+.contact-section form .name-input input{
+  width: 200px;
+}
+
+.contact-section form textarea{
+  margin: 10px;
+  resize: none;
+  width: 480px;
+  height: 300px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.02);
+  border: solid 1px #8a49a8;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+transition: all 0.2s;
+}
+.contact-section form textarea:focus{
+    background: rgba(255, 255, 255, 0.08);
+      border: solid 3px #cb5cff;
+}
+.contact-section form input:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border: solid 3px #cb5cff;
+}
+
+@media (max-width:520px) {
+    .contact-section form .name-input input {
+      width: 140px;
+    }
+    .contact-section form input {
+      width: 290px;
+      margin: 5px;
+    }
+    .contact-section form textarea {
+      width: 290px;
+    }
+  
+}
