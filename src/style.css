@@ -821,6 +821,9 @@ transition: all 0.2s;
   transform: scale(1.1);
 }
 @media (max-width:520px) {
+  .contact-section{
+    padding-top: 100px;
+  }
     .contact-section form .name-input input {
       width: 140px;
     }
@@ -830,6 +833,7 @@ transition: all 0.2s;
     }
     .contact-section form textarea {
       width: 290px;
+      height:200px;
     }
   
 }

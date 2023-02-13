@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Particle from '../Particle';
 import axios from "axios"
@@ -13,12 +13,19 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        setSendLoading(true)
+
         axios.get(`http://82.64.55.123:8080/sendmail/${firstNameRef.current.value}/${lastNameRef.current.value}/${mailRef.current.value}/${objectRef.current.value}/${messageRef.current.value}`).then(res => {
             console.log(res)
+            setSendLoading(false)
+            setIsSend(<p>send successfuly</p>)
         })
 
 
     }
+
+    const [sendLoading, setSendLoading] = useState(false)
+    const [isSend, setIsSend] = useState(null)
 
     return (
         <Container fluid className="contact-section">
@@ -35,7 +42,8 @@ const Contact = () => {
                 <input required ref={mailRef} type="email" placeholder='Mail' />
                 <input required ref={objectRef} type="text" placeholder='Object' />
                 <textarea required ref={messageRef} name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
-                <button>Envoyer</button>
+                <button>{!sendLoading ? "Envoyer" : "..."}</button>
+                {isSend}
             </form>
         </Container>
     );
